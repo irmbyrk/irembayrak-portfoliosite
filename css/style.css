@@ -129,6 +129,22 @@ header {
   background: rgba(255, 255, 255, 0.9);
 }
 
+header .container {
+  max-width: 1440px;
+}
+
+#index .container {
+  max-width: 1200px;
+}
+
+#aboutmain .container {
+  max-width: 1200px;
+}
+
+footer .container {
+  max-width: 1200px;
+}
+
 nav>ul {
   list-style-type: none;
   padding: 0;
@@ -210,9 +226,15 @@ footer ul>li {
   padding: 0 15px;
 }
 
-#aboutmain h1, #aboutmain h2 {
+#aboutmain h1 {
   text-align: center;
   margin: 0.67em 0;
+}
+
+#aboutmain h2 {
+  text-align: left;
+  margin: 0.67em 0;
+  margin-top: 50px;
 }
 
 .patiimg1 {
@@ -586,6 +608,78 @@ nav>ul {
   opacity: 80%
 }
 
+.anchor {
+  margin-top: -101px;
+}
+
+#work h2 {
+  margin-top: 201px;
+}
+
+.oval {
+  background: #F9DBCF;
+  margin: auto;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oval span {
+  font-size: 24px;
+  font-weight: 700;
+  width: auto;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.userinsight-text span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #EE8761;
+  font-weight: 700;
+  display: flex;
+  height: 75px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.userinsight .insight {
+  float: left;
+  width: 50%;
+  text-align: center;
+  list-style-type: none;
+  margin: 0 0px;
+}
+
+.userinsight .proximity {
+    width: 100%;
+}
+
+.userinsight {
+  margin-top: 50px;
+}
+
+.userinsight .proximity {
+  float: right;
+}
+
+.userinsight .margintop {
+  margin-top: 40px;
+}
+
+.userinsight p {
+  font-size: 14px;
+  width: auto;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 200px;
+}
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -593,6 +687,35 @@ Medium devices (640px and larger)
   header {
     text-align: unset;
     padding: 20px 0 13px;
+  }
+
+  .userinsight .insight {
+    float: left;
+    width: 20%;
+    text-align: center;
+    list-style-type: none;
+  }
+
+  .userinsight {
+    list-style-type: none;
+    padding: 0px;
+  }
+
+  .userinsight p {
+    font-size: 14px;
+    max-width: 150px;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .userinsight .margintop {
+    margin-top: 0px;
+  }
+
+  .row::after, .userinsight:after {
+    content: "";
+    clear: both;
+    display: table;
   }
 
   nav {
@@ -651,7 +774,7 @@ Medium devices (640px and larger)
   }
 
   .row.tools {
-    padding: 0 0 0 50px;
+    padding: 0 0 0 40px;
   }
 
   .button {
@@ -748,6 +871,10 @@ Medium devices (640px and larger)
   #whatispati p {
     padding-left: 100px;
   }
+
+  #aboutmain h2 {
+    margin: 20px 0 0 40px;
+  }
 }
 
 /* ==============================
@@ -767,7 +894,7 @@ Large devices (1024px or larger)
   }
 
   .container {
-    max-width: 1200px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
   }
