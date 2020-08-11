@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vocabulary Learning App</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navtoggle" id="myNavtoggle">
+        <a href="index.html">
+          <img class="logo" src="img/logo.svg" alt="Irem Bayrak">
+        </a>
+        <nav>
+          <ul class="pullUp">
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+            <li class="hamburger" id="hamburger-1"><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span></a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="vocappmain">
+
+    <div class="section vocappimage">
+      <div class="container">
+        <img src="img/vocapp/vocapp-mainpage.png" alt="Vocapp project image">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h1>ABOUT THE PROJECT</h1>
+        <p>Vocapp is a vocabulary learning app designed for the student project for Intro to UX Course at Career Foundry. Goal of the project was to learn fundamental principles of UX design and experience the Design Thinking Process.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h3>My role and responsibilities</h3>
+        <p>This was an introduction course for 1 month (Sep. 2019-Oct. 2019). </p>
+        <p>My role was to sketch possible solutions to vocabulary learning problems for early testing by applying Design thinking process from competitive analysis to user research and usability test. </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h1>DESIGN PROCESS</h1>
+        <picture>
+          <img class="vocappimages" src="img/vocapp/designprocess.png" alt="Design Process">
+        </picture>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>COMPETITIVE ANALYSIS</h2>
+        <p>My goal was to understand how other learning apps solve user problems and what features they have. I analyzed 3 competitor apps that I also used before. I analyzed what they’re doing good and what could be improved.</p>
+      </div>
+    </div>
+
+    <div class="section competitors">
+      <div class="container">
+        <ul>
+          <li><img src="img/vocapp/busuu.png" alt="Busuu Icon">
+          <li><img src="img/vocapp/drops.png" alt="Drops Icon">
+          <li><img src="img/vocapp/babbel.jpg" alt="Babbel Icon">
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="section">
+      <div class="container">
+        <h3>Key Insights</h3>
+        <p>Main insight was that most known vocabulary/language learning apps offer different type of exercises, audio support, voice recognition and interaction to enable users easily learn and memorize words and phrases.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>USER RESEARCH</h2>
+        <p>I conducted user research by interviewing 3 participants who experienced a vocabulary or language learning apps before in order to understand their thoughts, desires and needs. </p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h3>Key Insights</h3>
+        <p>Main insights were;</p>
+        <ul>
+          <li>They use vocabulary learning apps to exercise for a limited time.</li>
+          <li>They want to be able to hear pronunciation.</li>
+          <li>Repeating and using words in context is a good way to learn and memorize.</li>
+          <li>They want to be notified for daily exercises by setting a reminder</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>USER PERSONA</h2>
+        <p>Based on the outputs of user interviews, I created a proto-persona, Florentine.</p>
+        <p>Florentine needs;</p>
+        <ul>
+          <li>to be able to study during her commute or lunch break</li>
+          <li>to be reminded to start exercising at this time of the day</li>
+          <li>to repeat words to memorize because she has difficulty in keeping words in her mind</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>FLOWS</h2>
+        <p>As a next step I created two user flows to map out the navigation to achieve two main tasks.</p>
+      </div>
+    </div>
+
+    <div class="section" id="userflowsec">
+      <div class="container" id="userflowcont">
+        <h4>1. Learning a new vocabulary by completing a category </h4>
+        <img class="vocappimages" src="img/vocapp/task1/userflow1.svg" alt="User Flow (Task 1)">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container" id="userflowcont">
+        <h4>2. Set a reminder for daily exercises </h4>
+        <img class="vocappimages" src="img/vocapp/task2/userflow2.svg" alt="User Flow (Task 2)">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>WIREFRAMING & PROTOTYPING</h2>
+        <p>Next step was visualizing my solutions by sketching with crazy8 method for the main 2 tasks.</p>
+      </div>
+    </div>
+
+    <div class="section" id="taskflow1">
+      <div class="container">
+        <h4>1. Learning a new vocabulary by completing a category </h4>
+        <img class="vocappimages" src="img/vocapp/task1/learningtaskflow.png" alt="Task Flow (Task 1)">
+      </div>
+    </div>
+
+    <div class="section" id="taskflow2">
+      <div class="container">
+        <h4>2. Set a reminder for daily exercises </h4>
+        <img class="vocappimages" src="img/vocapp/task2/setreminderflow.png" alt="Task Flow (Task 2)">
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>TEST</h2>
+        <p>I conducted and early usability test to see if my initial solutions work and observe how users interact with my prototype. Early testing with paper sketches allowed me to determine what needs to be changed and because I didn’t commit too
+          much time for wireframing, it was easy to improve my sketches and then begin creating wireframes.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h3>Issues </h3>
+        <ul>
+          <li>Users want to be able see where they are and how many steps left to finish current exercise.</li>
+          <li>Two of the icons in bottom navigation were obvious (settings an my profile) but categories and progress icons were now clear to users.</li>
+          <li>Users needed a way to quit exercise to be able to learn another category.</li>
+          <li>All users wanted to be able to set a reminder in fewer steps.</li>
+          <li>They wanted to be able to access daily exercise easily via bottom navigation bar.</li>
+          <li>Before saving the reminder they wanted to be able to review it.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h3>Improvements </h3>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <img src="img/vocapp/improvement1.png" alt="Improvements 1">
+          </div>
+          <div class="col-md-6 col-lg-7 col-xl-8">
+            <ol class="projectcolumn">
+              <li>Added label to categories (main) screen to display selected language and level. </li>
+              <li>Settings icon in bottom navigation bar was replaced with Daily Exercise icon to allow users access reminders easily because Daily Exercises the most important feature after exercising. Added labels for icons to make it more
+                understandable.</li>
+              <li>Setting icon moved to top right corner to keep top navigation bar clean and easy to tap.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <img class="images" src="img/vocapp/improvement2.png" alt="Improvements 2"></div>
+          <div class="col-md-6 col-lg-7 col-xl-8">
+            <ol class="projectcolumn">
+              <li>Added progress count to enable users see their progress and remaining word count.</li>
+              <li>Added quit button to allow users save their progress and quit.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-5 col-xl-4">
+            <img src="img/vocapp/improvement3.png" alt="Improvements 3"></div>
+          <div class="col-md-6 col-lg-7 col-xl-8">
+            <p class="projectcolumn">Steps for setting a new reminder gathered in one screen to enable users determine their settings easily.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h2>CONCLUSION </h2>
+        <p>This project helped me to have an understanding of UX principles, discover Design Thinking Process and apply core UX skills. </p>
+        <p>Identifying problems and thinking about possible solutions without diving into learning tools and focusing user interface at this step enabled me to understand user-centered approach.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer id="contact">
+    <div class="container">
+      <h2>Get in Touch</h2>
+    </div>
+    <div class="section">
+      <div class="container">
+        <p>
+          If you’d like to learn more about me, work together, or just have a chat, get in touch.
+          Call: <a href="tel:+491732173138">+49 173 217 3138</a> or Skype me at <a href="skype:irembayrak1">irembayrak1</a> Prefer sending an email?
+        </p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <a href="mailto:irembayrak1@gmail.com" class="button contact">Send me an email</a>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <ul>
+          <li class="smicon" > <a href="https://www.linkedin.com/in/irembayrak/" target="_blank">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+                  <title>Group</title>
+                  <desc>Created with Sketch.</desc>
+                  <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                      <g id="Mobile-home" transform="translate(-40.000000, -1422.000000)">
+                          <rect id="Rectangle" fill="#E7F1F1" x="0" y="1234" width="320" height="310"></rect>
+                          <g id="Group" transform="translate(41.000000, 1423.000000)">
+                              <path d="M20.5,41 C9.17818769,41 0,31.8218123 0,20.5 C0,9.17818769 9.17818769,0 20.5,0 C31.8218123,0 41,9.17818769 41,20.5 C41,31.8218123 31.8218123,41 20.5,41 Z" id="Stroke-23" stroke="#272C2A" stroke-width="2"></path>
+                              <path d="M15,12 C15,13.1044776 14.1041266,14 12.9997739,14 C11.8958734,14 11,13.1044776 11,12 C11,10.8955224 11.8958734,10 12.9997739,10 C14.1041266,10 15,10.8955224 15,12 Z M11,29 L15,29 L15,16 L11,16 L11,29 Z M30,21.7161063 L30,29 L25.7413622,29 L25.7413622,22.2042885 C25.7413622,20.4978633 25.1266112,19.3327157 23.5842804,19.3327157 C22.4078255,19.3327157 21.7087941,20.1173467 21.3999314,20.876905 C21.287888,21.1482812 21.2591336,21.5253564 21.2591336,21.9063646 L21.2591336,29 L17,29 C17,29 17.0570132,17.4901108 17,16.2984155 L21.2591336,16.2984155 L21.2591336,18.0982491 C21.2502097,18.1129978 21.2383113,18.1262716 21.2303791,18.1400371 L21.2591336,18.1400371 L21.2591336,18.0982491 C21.8252994,17.2344666 22.8346808,16 25.0968652,16 C27.8989398,16 30,17.8155656 30,21.7161063 L30,21.7161063 Z" id="in" fill="#272C2A"></path>
+                          </g>
+                      </g>
+                  </g>
+              </svg>
+            </a></li>
+          <li class="smicon" > <a href="https://www.behance.net/rembayrak" target="_blank">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+                <title>Group 3</title>
+                <desc>Created with Sketch.</desc>
+                <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                  <g id="Mobile-home" transform="translate(-139.000000, -1422.000000)">
+                    <rect id="Rectangle" fill="#E7F1F1" x="0" y="1234" width="320" height="310"></rect>
+                    <g id="Group-3" transform="translate(140.000000, 1423.000000)">
+                      <path
+                        d="M20.3660349,40.7320698 L20.3660349,40.7320698 C9.1182093,40.7320698 -3.19744231e-14,31.6143372 -3.19744231e-14,20.3665116 L-3.19744231e-14,20.3660349 C-3.19744231e-14,9.1182093 9.1182093,-4.26325641e-14 20.3665116,-4.26325641e-14 C31.6133837,-4.26325641e-14 40.731593,9.1182093 40.731593,20.3655581 L40.731593,20.3660349 C40.731593,31.6138605 31.6133837,40.7320698 20.3660349,40.7320698 Z"
+                        id="Stroke-27" stroke="#272C2A" stroke-width="2"></path>
+                      <path
+                        d="M23.2760814,16.459593 C23.2274535,16.459593 23.1878837,16.4195465 23.1878837,16.3704419 L23.1878837,14.3652558 C23.1878837,14.3156744 23.2274535,14.2765814 23.2760814,14.2765814 L29.4303721,14.2765814 C29.479,14.2765814 29.5190465,14.3156744 29.5190465,14.3652558 L29.5190465,16.3704419 C29.5190465,16.4195465 29.479,16.459593 29.4303721,16.459593 L23.2760814,16.459593 Z M12.180814,19.148907 L15.5900116,19.148907 C15.9957209,19.148907 16.3766395,18.966314 16.6350349,18.6488023 C16.892,18.3327209 16.9911628,17.9222442 16.9077326,17.5203488 C16.7790116,16.9053488 16.1978605,16.459593 15.5237442,16.459593 L12.180814,16.459593 L12.180814,19.148907 Z M12.180814,24.6886744 L15.9337442,24.6886744 C16.3938023,24.6886744 16.8414651,24.4989302 17.1627907,24.1671163 C17.4736279,23.8457907 17.6376279,23.4286395 17.6233256,22.9924186 C17.5708837,21.3929419 15.9203953,21.3123721 15.5900116,21.3123721 L12.180814,21.3123721 L12.180814,24.6886744 Z M9.39805814,27.5596279 C9.34895349,27.5596279 9.30938372,27.5195814 9.30938372,27.4709535 L9.30938372,13.6768372 C9.30938372,13.6282093 9.34895349,13.5881628 9.39805814,13.5881628 L16.2979767,13.5881628 C18.2330814,13.5881628 19.8077674,15.1709535 19.8077674,17.1160698 C19.8077674,18.2435698 19.2561744,19.311 18.3322442,19.9731977 L18.2240233,20.0504302 L18.3465465,20.1023953 C19.6642674,20.6630465 20.5157326,21.9359535 20.5157326,23.3447326 C20.5157326,25.6683837 18.6235349,27.5596279 16.2984535,27.5596279 L9.39805814,27.5596279 Z M26.3634767,19.2485465 C25.2350233,19.2485465 24.3392209,20.0022791 24.1342209,21.1245349 L24.1180116,21.2122558 L28.5851047,21.2122558 L28.5660349,21.1216744 C28.3238488,19.9841628 27.4595116,19.2485465 26.3634767,19.2485465 Z M26.3634767,27.5596279 C23.3151744,27.5596279 21.1030814,25.3489651 21.1030814,22.3025698 C21.1030814,19.2685698 23.3151744,17.0669651 26.3634767,17.0669651 C29.398907,17.0669651 31.6024186,19.2685698 31.6024186,22.3025698 L31.6024186,22.7073256 L23.9778488,22.7073256 L23.9859535,22.7893256 C24.1346977,24.2891628 25.134907,25.3775698 26.3634767,25.3775698 C27.5157674,25.3775698 28.3057326,24.6629302 28.5879651,23.3642791 C28.5970233,23.3228023 28.6318256,23.2941977 28.6733023,23.2941977 L31.4055233,23.2941977 C31.4322209,23.2941977 31.4570116,23.306593 31.4741744,23.3275698 C31.491814,23.3490233 31.4984884,23.3757209 31.4927674,23.4024186 C31.1046977,25.298907 29.8994884,27.5596279 26.3634767,27.5596279 L26.3634767,27.5596279 Z"
+                        id="Fill-28" fill="#272C2A"></path>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </a></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <p>Copyright Irem Bayrak 2020</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

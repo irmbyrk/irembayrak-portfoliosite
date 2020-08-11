@@ -1,0 +1,791 @@
+/*
+Colors used:
+Logo-title (red): #FF4242;
+Vocap project (light green): #F4FAD2;
+Pati project (light green): #E3E2E8;
+Get in touch background (light blue): #E7F1F1;
+*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 400;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #000000;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.5625em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+b {
+  font-weight: 600;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: #ff4242;
+}
+
+a:visited {
+  color: #ff4242;
+}
+
+a:hover, a:focus {
+  color: #D50D0D;
+}
+
+a:active {
+  color: #ff4242;
+}
+
+.button {
+  display: inline-block;
+  background-color: #ff4242;
+  color: #ffffff !important;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 6px;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+
+.button:hover {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  color: #ffffff;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #ff4242 !important;
+  text-transform: uppercase;
+  border: 2px solid #ff4242;
+  transition: 0.2s color;
+  margin: 30px 0;
+}
+
+.button.contact:hover {
+  background-color: #ff4242;
+  color: #ffffff !important;
+}
+
+/* Layout styling */
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  padding-bottom: 25px;
+}
+
+.logo {
+  max-width: 75px;
+}
+
+header {
+  padding: 10px 0 4px;
+  position: fixed;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 400;
+  color: #000000;
+  border-bottom: 2px solid transparent;
+}
+
+nav>ul>li>a:visited {
+  color: #000000;
+}
+
+nav>ul>li>a.active {
+  border-bottom: 2px solid #FF4242;
+}
+
+#hero h1 {
+  padding: 0.67em 0;
+  text-align: center;
+  margin: 0;
+}
+
+#hero p {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#hero span {
+  display: block;
+}
+
+.links {
+  text-align: center;
+}
+
+#work h3 {
+  color: #ff4242;
+}
+
+main {
+  padding-top: 85px;
+}
+
+h1, h2 {
+  margin-top: 50px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #e7f1f1;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 100px;
+}
+
+footer h2 {
+  color: #ff4242;
+  margin-top: 50px;
+  font-size: 1.5625em;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+footer ul>li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+#aboutmain h1, #aboutmain h2 {
+  text-align: center;
+  margin: 0.67em 0;
+}
+
+.patiimg1 {
+  background-color: #ee8761;
+}
+
+.patiimg1 img {
+  width: 70%;
+  padding: 50px 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.patimain h1, .patimain h2 {
+  color: #151c83;
+  margin-bottom: 25px;
+}
+
+.patimain ul {
+  padding-left: 20px;
+}
+
+.patimain li {
+  margin: 0 0 15px 0;
+}
+
+.vocappmain h1, .vocappmain h2 {
+  color: #491f9e;
+}
+
+.vocappmain h4 {
+  color: #4c5773;
+}
+
+.vocappmain ul {
+  padding-left: 20px;
+}
+
+.vocappmain li {
+  margin: 0 0 15px 0;
+}
+
+.download {
+  font-size: 0.875em;
+  padding-top: 25px;
+  margin-bottom: 50px;
+}
+
+.download a {
+  color: #c1307f;
+}
+
+.column-tools span {
+  display: block;
+  font-size: 16px;
+  text-align: center;
+}
+
+.column-tools ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.column-tools ul>li {
+  float: left;
+  width: 50%;
+  padding: 0 5px;
+  text-align: center;
+  margin: 0 0 30px;
+  list-style-type: none;
+}
+
+.column-tools svg {
+  height: 50px;
+  width: auto;
+}
+
+.vocappimage {
+  background-color: #f4fad2
+}
+
+.competitors ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.competitors ul>li {
+  float: left;
+  width: 33.333333%;
+  padding: 10px;
+  text-align: center;
+  margin: 0 0 10px;
+  list-style-type: none;
+}
+
+.competitors svg {
+  height: 30px;
+  width: auto;
+}
+
+.competitors img {
+  max-width: 100px;
+}
+
+strong {
+  /* design process sub headings, I gave strong instead of h4 etc. */
+  padding-top: 40px;
+  display: inline-block;
+  /* I added this because padding-top overlapped with the p above the heading*/
+}
+
+.row::after, .competitors ul:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@keyframes color-change {
+  0% {
+    fill: #fffdfc;
+    transform: translate(0, 10px);
+  }
+
+  50% {
+    fill: #ffd869;
+  }
+
+  100% {
+    fill: #ff4500;
+    transform: translate(100px, 200px);
+  }
+}
+
+.sun {
+  animation: 30s color-change infinite alternate linear;
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(100px, 50px);
+  }
+}
+
+.cloud1 {
+  animation: 10s cloud-move infinite alternate linear;
+}
+
+.cloud3 {
+  animation: 10s cloud-move infinite alternate linear;
+}
+
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(0px, 43px);
+  }
+
+  to {
+    transform: translate(-100px, 43px);
+  }
+}
+
+.cloud2 {
+  animation: 10s cloud-move-reverse infinite alternate linear;
+}
+
+.cloud4 {
+  animation: 10s cloud-move-reverse infinite alternate linear;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle.responsive li {
+  display: block;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 20px;
+}
+
+nav>ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #d8d8d8;
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+.hamburger .line {
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  display: block;
+  margin: 6px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+#hamburger-1.is-active .line:nth-child(2) {
+  opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1) {
+  -webkit-transform: translateY(8px) rotate(45deg);
+  -ms-transform: translateY(8px) rotate(45deg);
+  -o-transform: translateY(8px) rotate(45deg);
+  transform: translateY(8px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3) {
+  -webkit-transform: translateY(-8px) rotate(-45deg);
+  -ms-transform: translateY(-8px) rotate(-45deg);
+  -o-transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+#userflowcont img {
+  padding-top: 50px;
+}
+
+.patiimages {
+  padding-top: 30px;
+}
+
+#userinterface {
+  background-color: #e3e2e8;
+  padding: 80px 0 50px 0;
+  margin-top: 50px;
+}
+
+#userinterface h2 {
+  margin: 20px 0 30px 0;
+}
+
+#whatispati {
+  margin-top: 100px;
+  padding: 50px 0;
+  background-image: linear-gradient(to bottom, #0b1065, #151c83);
+}
+
+#whatispati h3 {
+  color: #ffffff;
+  padding-top: 30px;
+}
+
+#whatispati p {
+  color: #e3e2e8;
+  max-width: 500px;
+}
+
+#problem {
+  background-color: #e3e2e8;
+  padding: 10px 0 50px 0;
+  margin-top: 100px;
+}
+
+.flow {
+  margin-top: 30px;
+}
+
+#flow2 {
+  padding-top: 50px;
+}
+
+.wireframes {
+  margin-top: 50px;
+  padding: 50px 0;
+  background-image: linear-gradient(to bottom, #A7B0C0, #B7C0D0);
+}
+
+.morespace {
+  margin-top: 50px;
+}
+
+.smicon:hover {
+  transform: translateY(-4px);
+  transition: 0.3s;
+}
+
+.prototype {
+  text-align: center;
+  background-color: #e3e2e8;
+}
+
+.button.prototype {
+  color: #151c83 !important;
+  transition: 0.1s color ease-in-out;
+  padding: 20px 100px;
+  margin-bottom: 50px;
+  background-color: transparent;
+  border: 2px solid #151c83;
+}
+
+.button.prototype:hover {
+  background-color: #151c83;
+  color: #ffffff !important;
+}
+
+.prototype {
+  text-align: center;
+  background-color: #e3e2e8;
+}
+
+.button.links {
+  background-color: transparent;
+  color: #ff4242 !important;
+  border: 2px solid #ff4242;
+  transition: 0.2s color;
+  margin: 10px 20px 10px 0;
+}
+
+.button.links:hover {
+  background-color: #ff4242;
+  color: #ffffff !important;
+}
+
+#hero {
+  padding: 10px 0;
+  background-color: #ffedbc;
+}
+
+#hero span {
+  display: block;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+#hero img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.projectsmainpage {
+  border-radius: 15px;
+}
+
+.projectsmainpage:hover {
+  opacity: 80%
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding-right: 20px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  #work h3 {
+    margin-top: 0;
+  }
+
+  .column-tools ul>li {
+    float: left;
+    width: 16.66666%;
+    padding: 0 10px;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    list-style-type: none;
+  }
+
+  #aboutmain img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 30px;
+  }
+
+  #aboutmain h2 {
+    padding-top: 0px;
+    font-size: 1.5625em;
+  }
+
+  .row.tools {
+    padding: 0 0 0 50px;
+  }
+
+  .button {
+    padding: 10px 30px;
+    width: auto;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  nav li {
+    position: relative;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
+
+  .competitors ul>li {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    text-align: left;
+    margin: 0 0 10px;
+    list-style-type: none;
+  }
+
+  .vocappimages {
+    max-width: 800px;
+  }
+
+  .patiimages {
+    max-width: 800px;
+  }
+
+  ul.pullUp a:before {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    left: 0px;
+    bottom: 0px;
+    content: '';
+    background: #ff4242;
+    opacity: 70%;
+    transition: all 0.3s;
+  }
+
+  ul.pullUp a:hover:before {
+    opacity: 30%;
+    height: 100%;
+  }
+
+  .navtoggle.responsive li {
+    padding: 0;
+    border: 0;
+  }
+
+  /*I added code below because when contact link is clicked, nav links slipped 24px below*/
+  .navtoggle.responsive nav {
+    padding: 0;
+  }
+
+  #hero img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #hero {
+    padding: 75px 0;
+  }
+
+  h1, h2 {
+    margin-top: 100px;
+  }
+
+  h3 {
+    margin-top: 50px;
+  }
+
+  #whatispati h3 {
+    padding-left: 100px;
+  }
+
+  #whatispati p {
+    padding-left: 100px;
+  }
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  main {
+    padding-top: 101px;
+  }
+
+  .col-lg-7 {
+    width: 58.333333%;
+  }
+
+  .col-lg-5 {
+    width: 41.666666%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  div.col-md-6.col-lg-5 {
+    padding-left: 50px;
+  }
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+  .col-xl-8 {
+    width: 66.66666%;
+  }
+
+  .col-xl-4 {
+    width: 33.33333%;
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="85px" viewBox="0 0 80 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 3@3x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="3.85 2.8875 69.3 2.8875 69.3 74.1125 3.85 74.1125"></polygon>
+        <filter x="-10.7%" y="-7.0%" width="121.4%" height="119.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.274060236   0 0 0 0 0.171841199   0 0 0 0 0.171841199  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="online-portfolio-v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2_about-the-Project-Copy" transform="translate(-798.000000, -1038.000000)">
+            <g id="Group-3" transform="translate(801.000000, 1040.000000)">
+                <g id="Rectangle" transform="translate(36.575000, 38.500000) rotate(-5.000000) translate(-36.575000, -38.500000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#EEDB8B" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="Dashboard" transform="translate(36.500000, 29.500000) rotate(-5.000000) translate(-36.500000, -29.500000) " font-family="MarkerFelt-Thin, Marker Felt" font-size="12" font-weight="300" letter-spacing="-0.4" fill="#000000">
+                    <tspan x="13.532" y="33">Dashboard</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

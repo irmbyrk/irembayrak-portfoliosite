@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="78px" viewBox="0 0 134 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Group 9@2x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="online-portfolio-v4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2_about-the-Project-Copy" transform="translate(-1226.000000, -1039.000000)">
+            <g id="Group-9" transform="translate(1226.000000, 1039.000000)">
+                <rect id="Rectangle" stroke="#4EC2C5" stroke-width="2" x="1" y="1" width="60" height="72.9189189" rx="4"></rect>
+                <rect id="Rectangle-Copy" stroke="#4EC2C5" stroke-width="2" x="73" y="1" width="60" height="72.9189189" rx="4"></rect>
+                <g id="Group-7" transform="translate(11.000000, 11.445946)" stroke="#4EC2C5">
+                    <rect id="Rectangle" x="0.5" y="0.5" width="40" height="18.7702703"></rect>
+                    <line x1="0.5" y1="0.52027027" x2="40.5" y2="19.25" id="Path-10"></line>
+                    <line x1="40.5" y1="1.04054054" x2="0.5" y2="18.7297297" id="Path-11"></line>
+                </g>
+                <g id="Group-7-Copy" transform="translate(82.000000, 24.972973)" stroke="#4EC2C5">
+                    <rect id="Rectangle" x="0.5" y="0.5" width="40" height="18.7702703"></rect>
+                    <line x1="0.5" y1="0.52027027" x2="40.5" y2="19.25" id="Path-10"></line>
+                    <line x1="40.5" y1="1.04054054" x2="0.5" y2="18.7297297" id="Path-11"></line>
+                </g>
+                <rect id="Rectangle-Copy-2" stroke="#4EC2C5" fill="#D8D8D8" x="11.5" y="34.8378378" width="40" height="1"></rect>
+                <rect id="Rectangle-Copy-7" stroke="#4EC2C5" fill="#D8D8D8" x="82.5" y="11.9459459" width="40" height="1"></rect>
+                <rect id="Rectangle-Copy-4" stroke="#4EC2C5" fill="#D8D8D8" x="11.5" y="39" width="40" height="1"></rect>
+                <rect id="Rectangle-Copy-8" stroke="#4EC2C5" fill="#D8D8D8" x="82.5" y="16.1081081" width="40" height="1"></rect>
+                <rect id="Rectangle-Copy-5" stroke="#4EC2C5" fill="#D8D8D8" x="11.5" y="43.1621622" width="40" height="1"></rect>
+                <rect id="Rectangle-Copy-9" stroke="#4EC2C5" fill="#D8D8D8" x="82.5" y="20.2702703" width="40" height="1"></rect>
+                <rect id="Rectangle-Copy-3" stroke="#4EC2C5" x="15.5" y="50.4459459" width="30" height="6.28378378"></rect>
+                <rect id="Rectangle-Copy-10" fill="#4EC2C5" x="87" y="54.1081081" width="31" height="7.28378378"></rect>
+                <rect id="Rectangle-Copy-6" stroke="#4EC2C5" fill="#D8D8D8" x="19.5" y="53.5675676" width="22" height="1"></rect>
+                <rect id="Rectangle-Copy-11" stroke="#FFFFFF" fill="#D8D8D8" x="91.5" y="57.7297297" width="22" height="1"></rect>
+                <path d="M42,67.3950104 L48.7217494,76.0033215 C49.0616505,76.4386211 49.6900748,76.5159568 50.1253744,76.1760557 C50.1865474,76.1282891 50.2419515,76.0735632 50.290468,76.0129832 L64.5,58.2702703 L64.5,58.2702703" id="Path-12" stroke="#51A025" stroke-width="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
