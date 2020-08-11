@@ -104,6 +104,18 @@ a:active {
   color: #ffffff !important;
 }
 
+#about-navbar {
+  background-color: white;
+}
+
+#pati-navbar {
+  background-color: #ee8761;
+}
+
+#vocapp-navbar {
+  background-color: #F4FAD2;
+}
+
 /* Layout styling */
 .container {
   padding: 0 15px;
@@ -126,7 +138,7 @@ header {
   padding: 10px 0 4px;
   position: fixed;
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background-color: #ffedbc;
 }
 
 header .container {
@@ -608,12 +620,8 @@ nav>ul {
   opacity: 80%
 }
 
-.anchor {
-  margin-top: -101px;
-}
-
 #work h2 {
-  margin-top: 201px;
+  margin-top: 151px;
 }
 
 .oval {
@@ -688,6 +696,7 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
+
 
   .userinsight .insight {
     float: left;
