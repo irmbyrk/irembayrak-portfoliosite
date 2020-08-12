@@ -2,8 +2,8 @@
 Colors used:
 Logo-title (red): #FF4242;
 Vocap project (light green): #F4FAD2;
-Pati project (light green): #E3E2E8;
-Get in touch background (light blue): #E7F1F1;
+Pati project (orange): #EE8761;
+Footer (light blue): #E8F2F2;
 */
 * {
   box-sizing: border-box;
@@ -56,6 +56,7 @@ img {
 
 a {
   color: #ff4242;
+  font-weight: 600;
 }
 
 a:visited {
@@ -74,7 +75,7 @@ a:active {
   display: inline-block;
   background-color: #ff4242;
   color: #ffffff !important;
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px 30px;
   border-radius: 6px;
   /* width of the border, type, color */
@@ -166,7 +167,7 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   color: #000000;
   border-bottom: 2px solid transparent;
 }
@@ -216,7 +217,7 @@ h3 {
 }
 
 footer {
-  background-color: #e7f1f1;
+  background-color: #E8F2F2;
   text-align: center;
   padding: 30px 0;
   margin-top: 100px;
@@ -320,7 +321,7 @@ footer ul>li {
   list-style-type: none;
 }
 
-.column-tools svg {
+.column-tools img {
   height: 50px;
   width: auto;
 }
@@ -363,62 +364,6 @@ strong {
   content: "";
   clear: both;
   display: table;
-}
-
-@keyframes color-change {
-  0% {
-    fill: #fffdfc;
-    transform: translate(0, 10px);
-  }
-
-  50% {
-    fill: #ffd869;
-  }
-
-  100% {
-    fill: #ff4500;
-    transform: translate(100px, 200px);
-  }
-}
-
-.sun {
-  animation: 30s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {
-    transform: translate(0, 50px);
-  }
-
-  to {
-    transform: translate(100px, 50px);
-  }
-}
-
-.cloud1 {
-  animation: 10s cloud-move infinite alternate linear;
-}
-
-.cloud3 {
-  animation: 10s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {
-    transform: translate(0px, 43px);
-  }
-
-  to {
-    transform: translate(-100px, 43px);
-  }
-}
-
-.cloud2 {
-  animation: 10s cloud-move-reverse infinite alternate linear;
-}
-
-.cloud4 {
-  animation: 10s cloud-move-reverse infinite alternate linear;
 }
 
 .navtoggle li:not(:last-child) {
@@ -493,7 +438,7 @@ nav>ul {
   transform: translateY(-8px) rotate(-45deg);
 }
 
-#userflowcont img {
+.userflowcont img {
   padding-top: 50px;
 }
 
@@ -564,9 +509,10 @@ nav>ul {
 .button.prototype {
   color: #151c83 !important;
   transition: 0.1s color ease-in-out;
-  padding: 20px 100px;
+  padding: 10px 100px;
   margin-bottom: 50px;
   background-color: transparent;
+  text-transform: uppercase;
   border: 2px solid #151c83;
 }
 
@@ -595,7 +541,7 @@ nav>ul {
 
 #hero {
   padding: 10px 0;
-  background-color: #ffedbc;
+  background-color: #ffefc2;
 }
 
 #hero span {
@@ -664,7 +610,7 @@ nav>ul {
 }
 
 .userinsight .proximity {
-    width: 100%;
+  width: 100%;
 }
 
 .userinsight {
@@ -687,7 +633,6 @@ nav>ul {
   max-width: 200px;
 }
 
-
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -696,7 +641,6 @@ Medium devices (640px and larger)
     text-align: unset;
     padding: 20px 0 13px;
   }
-
 
   .userinsight .insight {
     float: left;

@@ -15,13 +15,11 @@ $(document).ready(function(){
   });
 });
 
-window.onscroll = function() {scrollFunction()};
-
 $(window).scroll(function () {
 if ($(window).scrollTop() >= 101) {
 $('#navbar').css('background','rgba(255, 255, 255, 0.4)');
 } else {
-$('#navbar').css('background','#ffedbc');
+$('#navbar').css('background','#ffefc2');
 }
 });
 
@@ -49,12 +47,9 @@ $('#vocapp-navbar').css('background','#F4FAD2');
 }
 });
 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-//     document.getElementById("navbar").style.font-weight = "700";
-//     document.getElementById("logo").style.font-weight = "700";
-//   } else {
-//     document.getElementById("navbar").style.font-weight = "700";
-//     document.getElementById("logo").style.font-weight = "700";
-//   }
-// }
+
+$(document).ready(function(){
+  $(".hamburger").click(function(){
+    $('header').css ('background','rgba(255, 255, 255, 1)');
+  });
+});
