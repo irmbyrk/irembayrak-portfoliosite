@@ -137,7 +137,7 @@ header {
   padding: 10px 0 4px;
   position: fixed;
   width: 100%;
-  background-color: #ffedbc;
+  background-color: #ffefc2;
 }
 
 header .container {
@@ -641,7 +641,7 @@ Medium devices (640px and larger)
   }
 
   #work h2 {
-    margin-top: 151px;
+    margin-top: 101px;
   }
 
   .userinsight .insight {
@@ -829,6 +829,10 @@ Medium devices (640px and larger)
 
   #aboutmain h2 {
     margin: 20px 0 0 40px;
+  }
+
+  #skillstools {
+    padding-left: 40px;
   }
 }
 

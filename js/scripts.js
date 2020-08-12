@@ -15,6 +15,8 @@ $(document).ready(function(){
   });
 });
 
+//header styling
+
 $(window).scroll(function () {
 if ($(window).scrollTop() >= 101) {
 $('#navbar').css('background','rgba(255, 255, 255, 0.4)');
