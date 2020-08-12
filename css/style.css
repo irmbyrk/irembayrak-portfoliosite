@@ -64,7 +64,7 @@ a:visited {
 }
 
 a:hover, a:focus {
-  color: #D50D0D;
+  color: #d50d0d;
 }
 
 a:active {
@@ -87,8 +87,6 @@ a:active {
 
 .button:hover {
   opacity: 0.8;
-  /* Reduces the opacity of the button to 80% */
-  color: #ffffff;
 }
 
 .button.contact {
@@ -512,7 +510,6 @@ nav>ul {
   padding: 10px 100px;
   margin-bottom: 50px;
   background-color: transparent;
-  text-transform: uppercase;
   border: 2px solid #151c83;
 }
 
@@ -567,11 +564,11 @@ nav>ul {
 }
 
 #work h2 {
-  margin-top: 151px;
+  margin-top: 51px;
 }
 
 .oval {
-  background: #F9DBCF;
+  background: #C1307F;
   margin: auto;
   width: 75px;
   height: 75px;
@@ -583,7 +580,8 @@ nav>ul {
 
 .oval span {
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 600;
+  color: #ffffff;
   width: auto;
   display: block;
   font-family: 'Open Sans', sans-serif;
@@ -592,7 +590,7 @@ nav>ul {
 .userinsight-text span {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #EE8761;
+  color: #C1307F;
   font-weight: 700;
   display: flex;
   height: 75px;
@@ -640,6 +638,10 @@ Medium devices (640px and larger)
   header {
     text-align: unset;
     padding: 20px 0 13px;
+  }
+
+  #work h2 {
+    margin-top: 151px;
   }
 
   .userinsight .insight {
