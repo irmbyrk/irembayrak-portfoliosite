@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 $(window).scroll(function () {
 if ($(window).scrollTop() >= 101) {
-$('#navbar').css('background','rgba(255, 255, 255, 0.4)');
+$('#navbar').css('background','rgba(255, 255, 255, 0.8)');
 } else {
 $('#navbar').css('background','#ffefc2');
 }
@@ -27,7 +27,7 @@ $('#navbar').css('background','#ffefc2');
 
 $(window).scroll(function () {
 if ($(window).scrollTop() >= 101) {
-$('#about-navbar').css('background','rgba(255, 255, 255, 0.4)');
+$('#about-navbar').css('background','rgba(255, 255, 255, 0.8)');
 } else {
 $('#about-navbar').css('background','white');
 }
@@ -35,7 +35,7 @@ $('#about-navbar').css('background','white');
 
 $(window).scroll(function () {
 if ($(window).scrollTop() >= 101) {
-$('#pati-navbar').css('background','rgba(255, 255, 255, 0.4)');
+$('#pati-navbar').css('background','rgba(255, 255, 255, 0.8)');
 } else {
 $('#pati-navbar').css('background','#ee8761');
 }
@@ -43,7 +43,7 @@ $('#pati-navbar').css('background','#ee8761');
 
 $(window).scroll(function () {
 if ($(window).scrollTop() >= 101) {
-$('#vocapp-navbar').css('background','rgba(255, 255, 255, 0.4)');
+$('#vocapp-navbar').css('background','rgba(255, 255, 255, 0.8)');
 } else {
 $('#vocapp-navbar').css('background','#F4FAD2');
 }

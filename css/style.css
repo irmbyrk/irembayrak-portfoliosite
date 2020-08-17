@@ -92,7 +92,6 @@ a:active {
 .button.contact {
   background-color: transparent;
   color: #ff4242 !important;
-  text-transform: uppercase;
   border: 2px solid #ff4242;
   transition: 0.2s color;
   margin: 30px 0;
@@ -145,6 +144,10 @@ header .container {
 }
 
 #index .container {
+  max-width: 960px;
+}
+
+#hero .container {
   max-width: 1200px;
 }
 
@@ -253,7 +256,7 @@ footer ul>li {
 }
 
 .patiimg1 img {
-  width: 70%;
+  width: 90%;
   padding: 50px 0;
   display: block;
   margin-left: auto;
@@ -528,7 +531,7 @@ nav>ul {
   color: #ff4242 !important;
   border: 2px solid #ff4242;
   transition: 0.2s color;
-  margin: 10px 20px 10px 0;
+  margin: 10px 10px 10px 0;
 }
 
 .button.links:hover {
@@ -552,7 +555,6 @@ nav>ul {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  margin-top: 30px;
 }
 
 .projectsmainpage {
@@ -609,14 +611,11 @@ nav>ul {
 
 .userinsight .proximity {
   width: 100%;
+  float: right;
 }
 
 .userinsight {
   margin-top: 50px;
-}
-
-.userinsight .proximity {
-  float: right;
 }
 
 .userinsight .margintop {
@@ -719,13 +718,15 @@ Medium devices (640px and larger)
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
-    margin-top: 30px;
   }
 
   #aboutmain h2 {
     padding-top: 0px;
     font-size: 1.5625em;
+  }
+
+  #aboutimage .container {
+    max-width: 1200px;
   }
 
   .row.tools {
@@ -834,6 +835,14 @@ Medium devices (640px and larger)
   #skillstools {
     padding-left: 40px;
   }
+
+  .button.links {
+    background-color: transparent;
+    color: #ff4242 !important;
+    border: 2px solid #ff4242;
+    transition: 0.2s color;
+    margin: 10px 20px 10px 0;
+  }
 }
 
 /* ==============================
@@ -853,7 +862,7 @@ Large devices (1024px or larger)
   }
 
   .container {
-    max-width: 960px;
+    max-width: 840px;
     margin-left: auto;
     margin-right: auto;
   }
