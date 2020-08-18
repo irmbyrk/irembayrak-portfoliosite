@@ -128,8 +128,14 @@ a:active {
   padding-bottom: 25px;
 }
 
+#userresearch .row {
+  margin: 0;
+  /* 25px top and bottom, 0 left and right */
+}
+
 .logo {
-  max-width: 75px;
+  max-width: 60px;
+  margin-top: 5px;
 }
 
 header {
@@ -165,7 +171,6 @@ nav>ul {
 }
 
 nav>ul>li>a {
-  padding: 0 15px;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 500;
@@ -177,8 +182,8 @@ nav>ul>li>a:visited {
   color: #000000;
 }
 
-nav>ul>li>a.active {
-  border-bottom: 2px solid #FF4242;
+#active-mobile {
+  background-color: rgba(255, 66, 66, 0.5);
 }
 
 #hero h1 {
@@ -202,11 +207,12 @@ nav>ul>li>a.active {
 }
 
 #work h3 {
-  color: #ff4242;
+  color: #000000;
+  margin-bottom: 10px;
 }
 
 main {
-  padding-top: 85px;
+  padding-top: 64px;
 }
 
 h1, h2 {
@@ -221,12 +227,11 @@ footer {
   background-color: #E8F2F2;
   text-align: center;
   padding: 30px 0;
-  margin-top: 100px;
 }
 
 footer h2 {
   color: #ff4242;
-  margin-top: 50px;
+  margin-top: 0px;
   font-size: 1.5625em;
 }
 
@@ -389,6 +394,7 @@ strong {
 nav>ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 .navtoggle.responsive nav {
@@ -479,6 +485,10 @@ nav>ul {
   margin-top: 100px;
 }
 
+#problem h2 {
+  margin-top: 68px;
+}
+
 .flow {
   margin-top: 30px;
 }
@@ -526,6 +536,12 @@ nav>ul {
   background-color: #e3e2e8;
 }
 
+#buttoncv {
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+}
+
 .button.links {
   background-color: transparent;
   color: #ff4242 !important;
@@ -540,7 +556,7 @@ nav>ul {
 }
 
 #hero {
-  padding: 10px 0;
+  padding: 10px 0 0 0;
   background-color: #ffefc2;
 }
 
@@ -570,7 +586,7 @@ nav>ul {
 }
 
 .oval {
-  background: #C1307F;
+  background: #F9DBCF;
   margin: auto;
   width: 75px;
   height: 75px;
@@ -583,7 +599,7 @@ nav>ul {
 .oval span {
   font-size: 24px;
   font-weight: 600;
-  color: #ffffff;
+  color: #000000;
   width: auto;
   display: block;
   font-family: 'Open Sans', sans-serif;
@@ -591,8 +607,8 @@ nav>ul {
 
 .userinsight-text span {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  color: #C1307F;
+  font-size: 18px;
+  color: #EE8761;
   font-weight: 700;
   display: flex;
   height: 75px;
@@ -603,37 +619,50 @@ nav>ul {
 
 .userinsight .insight {
   float: left;
-  width: 50%;
+  width: 100%;
   text-align: center;
   list-style-type: none;
-  margin: 0 0px;
 }
 
-.userinsight .proximity {
-  width: 100%;
-  float: right;
+.insight {
+  padding: 20px 0;
+  margin-bottom: 10px;
+  border: 2px solid;
+  border-color: white;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 12px -2px rgba(210, 210, 212, 1);
+  -moz-box-shadow: 0px 4px 12px -2px rgba(210, 210, 212, 1);
+  box-shadow: 0px 4px 12px -2px rgba(210, 210, 212, 1);
 }
 
 .userinsight {
   margin-top: 50px;
 }
 
-.userinsight .margintop {
-  margin-top: 40px;
-}
-
 .userinsight p {
-  font-size: 14px;
   width: auto;
   margin: auto;
-  margin-top: 10px;
-  max-width: 200px;
+  margin-top: 20px;
+  max-width: 250px;
 }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  .userinsight p {
+    width: auto;
+    margin: auto;
+    margin-top: 10px;
+    max-width: 200px;
+  }
+
+  .insight {
+    padding: 20px 0;
+    -webkit-box-shadow: none;
+    border: 0;
+  }
+
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -643,27 +672,11 @@ Medium devices (640px and larger)
     margin-top: 101px;
   }
 
-  .userinsight .insight {
-    float: left;
-    width: 20%;
-    text-align: center;
-    list-style-type: none;
-  }
-
-  .userinsight {
-    list-style-type: none;
-    padding: 0px;
-  }
-
   .userinsight p {
-    font-size: 14px;
-    max-width: 150px;
+    font-size: 16px;
+    max-width: 200px;
     margin: auto;
-    margin-top: 10px;
-  }
-
-  .userinsight .margintop {
-    margin-top: 0px;
+    margin-top: 20px;
   }
 
   .row::after, .userinsight:after {
@@ -781,6 +794,7 @@ Medium devices (640px and larger)
     max-width: 800px;
   }
 
+
   ul.pullUp a:before {
     position: absolute;
     width: 100%;
@@ -849,6 +863,38 @@ Medium devices (640px and larger)
     transition: 0.2s color;
     margin: 10px 20px 10px 0;
   }
+
+  footer h2 {
+    margin-top: 20px;
+  }
+
+  .logo {
+    max-width: 75px;
+  }
+
+  nav>ul>li>a.active {
+    border-bottom: 2px solid #FF4242;
+  }
+
+  #active-mobile {
+    background-color: white;
+  }
+
+  nav>ul>li>a {
+    padding: 0 15px;
+  }
+
+  .userinsight .insight {
+    float: left;
+    width: 33%;
+    text-align: center;
+  }
+
+  #secondrow .insight {
+    float: left;
+    width: 50%;
+  }
+
 }
 
 /* ==============================
