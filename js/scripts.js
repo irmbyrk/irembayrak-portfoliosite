@@ -7,7 +7,7 @@ function menuToggle() {
   }
 }
 
-//for hambuger menu Animation
+//for hamburger menu Animation
 
 $(document).ready(function() {
   $(".hamburger").click(function() {
@@ -15,10 +15,9 @@ $(document).ready(function() {
   });
 });
 
-
 $(document).ready(function() {
   $(".reverse").click(function() {
-    $(".").toggleClass("is-active");
+    $(".hamburger").toggleClass("is-active");
   });
 });
 
