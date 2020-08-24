@@ -4,10 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>IremBayrak UX/UI Designer Berlin</title>
+  <title>Irem Bayrak UX Designer Berlin</title>
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,13 +15,13 @@
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
         <a href="index.html">
-          <img class="logo" src="img/logo.svg" alt="Irem Bayrak">
+          <img id="logo" src="img/logo.svg" alt="Irem Bayrak">
         </a>
         <nav>
-          <ul class="pullUp">
-            <li><a href="index.html#work-section" onclick="menuToggle()">Work</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+          <ul class="pullUp" id="shrink">
+            <li class="reverse"><a href="index.html#work-section" id="menuindex" onclick="menuToggle()">Work</a></li>
+            <li><a href="about.html" id="menuabout">About</a></li>
+            <li class="reverse"><a href="#contact" id="menucontact" onclick="menuToggle()">Contact</a></li>
             <li class="hamburger" id="hamburger-1"><a href="javascript:void(0);" class="icon" onclick="menuToggle()">
                 <span class="line"></span>
                 <span class="line"></span>
@@ -42,7 +42,7 @@
           </div>
           <div class="row">
             <div class="col-md-6 col-lg-7 col-xl-7">
-              <h1>Hi, my name is Irem. <span>I'm UX Designer based in Berlin with web development skills.</span></h1>
+              <h1>Hi, my name is Irem. <span>I'm a UX Designer based in Berlin with web development skills.</span></h1>
               <p> Transitioning from finance to UX, I have 7 years experience in underwriting and commercial lending. I'm eager to combine soft skills gained in finance with new UX design skills and design solutions to user problems.</p>
               <div class=links>
                 <a href="about.html" class="button links">Learn more about me</a>
@@ -59,7 +59,10 @@
         <div id="work-section" class="anchor">
           <a name="target">&nbsp;</a>
         </div>
+
         <h2>My Works</h2>
+
+
         <div class="row">
           <div class="col-md-6">
             <a href="pati.html">
@@ -72,6 +75,21 @@
             <a href="pati.html" class="button">View project</a>
           </div>
         </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <a href="website.html">
+              <img src="img/website/websitehomepage.png" class="projectsmainpage" alt="Website Project Image">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <h3>Portfolio Website</h3>
+            <p>I built my portfolio website for Frontend Development for Designers specialization course at Career Foundry.</p>
+            <a href="website.html" class="button">View project</a>
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-md-6">
             <a href="vocapp.html" id="vocapp">
@@ -109,7 +127,7 @@
       <div class="container">
         <ul>
           <li class="smicon"> <a href="https://www.linkedin.com/in/irembayrak/" target="_blank">
-          <img src="img/linkedin.svg" alt="linkedin">
+              <img src="img/linkedin.svg" alt="linkedin">
             </a></li>
           <li class="smicon">
             <a href="https://www.behance.net/irembayrak" target="_blank">
@@ -119,7 +137,7 @@
       </div>
     </div>
     <div>
-      <p>Copyright Irem Bayrak 2020</p>
+      <p class="copyright">Copyright Irem Bayrak 2020</p>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
