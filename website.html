@@ -137,24 +137,57 @@
       </div>
     </div>
 
+
     <div class="section">
       <div class="container">
         <h3>Navigation</h3>
         <p>It was important to keep my navigation simple, clear, and always accessible. For this reason, I used a fixed header and only 3 items on the navigation bar.</p>
+        <h4>Challenge #1</h4>
+        <p>My initial intention was to have a transparent navigation bar with the same background color as the section below it for every page. I also wanted to adjust the content width to keep it between the logo and menus. This way content and
+          elements in the header wouldn’t overlap, menus would still be legible and I would have an appealing header.</p>
+        <img src="img/website/transparentnavbars.png" class="websiteimages" alt="Tranpsarent Navigationbars">
+      </div>
+    </div>
+
+
+    <div class="section morespace-section">
+      <div class="container">
+        <div class="row website-row">
+          <div class="col-md-8">
+            <p><b>The problem:</b> It didn’t work on mobile. On mobile, the transparent menu was causing overlapping text which makes it hard to read for everyone. </p>
+            <p>Defining different styling for smaller screen sizes by using media queries didn’t work either because when scrolled JS overrode CSS styling. </p>
+          </div>
+          <div class="col-md-4">
+            <img src="img/website/mobiletransparent.png" class="websiteimages" alt="Tranpsarent header mobile">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section morespace-section">
+      <div class="container">
+        <p><b>The solution:</b> Because my main goal was building a responsive, usable website to showcase my work, design thinking and process, and also my JS skills were limited due to course scope, I decided to use a header with white background
+          and shadow that shrinks on scroll to dedicate more space to content.</p>
         <img src="img/website/navigation.png" class="websiteimages" alt="Navigation bar">
       </div>
     </div>
 
+
+
     <div class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Homepage</h3>
-            <p>For homepage, my goal was to provide an overview at a glance by having a short introduction about me, a screenshot, and short info about my projects, contact section, and links to projects and my about page in case they want to see
-              more about me.</p>
-            <div class="col-md-8">
-              <img src="img/website/homepage.png" class="websiteimages" alt="Homepage">
-            </div>
+        <div class="row website-row">
+          <div class="col-md-8">
+            <h4>Challenge #2</h4>
+            <p>For mobile devices, I used a hamburger menu and a transition between states (three bars when closed, X when opened).</p>
+            <p class="morespace"><b>The problem:</b> Work and Contact menus were anchor links. Because these links were keeping users on the same page, the hamburger icon didn’t transform to its initial state. </p>
+            <p>I did a web search to fix my problem and tried to find a similar problem other people had to get an idea but I couldn’t.</p>
+          </div>
+          <div class="col-md-4 videotopmargin">
+            <video autoplay controls loop width="300">
+              <source src="video/failed.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
@@ -162,17 +195,54 @@
 
     <div class="section">
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <h3>Contact section</h3>
-            <p>Main aim of my website is to impress potential employers and recruiters and finally get me hired. So it’s important for me to make them easily reach me. That’s why I kept the contact section on every page as a footer.</p>
-            <div class="col-md-8">
-              <img src="img/website/footer.png" class="websiteimages" alt="Contact section">
-            </div>
+        <p class="morespace"><b>The constrains:</b> Time was an important constraint. Because I needed to focus on my main goal, getting a job. </p>
+        <p class="morespace"><b>The solution:</b> There were 3 possible solutions;</p>
+        <ul>
+          <li>using only the bar icon for both states, so there would be no transition and no issue</li>
+          <li>using two different headers, one for large screen sizes, one for mobile devices</li>
+          <li>instead of pursuing the best solution, coming up with an alternative solution to make it work</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <div class="row website-row">
+          <div class="col-md-8">
+            <p class="morespace">I didn’t want to choose the first solution because using the X icon when it’s active because it signals to users that they can close the menu by clicking it.</p>
+            <p class="morespace">The second solution was time-consuming because it would require me to rewrite my HTML, styling, and JS codes for the header.</p>
+            <p class="morespace">So I need to think about a quick fix. I decided to write a code to reverse the hamburger icon transition. What I did was to add classes to anchor links (work & contact) and define a rule to reverse animation of
+              hamburger icon when they’re clicked. </p>
+          </div>
+          <div class="col-md-4 videotopmargin2">
+            <video autoplay controls loop width="300">
+              <source src="video/fixed.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="section">
+      <div class="container">
+            <h3>Homepage</h3>
+            <p>For homepage, my goal was to provide an overview at a glance by having a short introduction about me, a screenshot, and short info about my projects, contact section, and links to projects and my about page in case they want to see
+              more about me.</p>
+            <img src=" img/website/homepage.png" class="websiteimages" alt="Homepage">
+          </div>
+        </div>
+
+
+
+    <div class="section">
+      <div class="container">
+            <h3>Contact section</h3>
+            <p>Main aim of my website is to impress potential employers and recruiters and finally get me hired. So it’s important for me to make them easily reach me. That’s why I kept the contact section on every page as a footer.</p>
+        <img src=" img/website/footer.png" class="websiteimages" alt="Contact section">
+          </div>
+        </div>
+
 
     <div class="section">
       <div class="container">
