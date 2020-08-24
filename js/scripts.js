@@ -16,12 +16,12 @@ $(document).ready(function() {
 });
 
 
-// $(document).ready(function() {
-//   $(".reverse").click(function() {
-//     $(".").toggleClass("is-active");
-//   });
-// });
-//
+$(document).ready(function() {
+  $(".reverse").click(function() {
+    $(".").toggleClass("is-active");
+  });
+});
+
 window.onscroll = function() {
   scrollFunction()
 };
