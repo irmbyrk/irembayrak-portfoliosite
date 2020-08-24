@@ -15,39 +15,6 @@ $(document).ready(function() {
   });
 });
 
-$(window).scroll(function () {
-if ($(window).scrollTop() >= 101) {
-$('#navbar').css('background','rgba(255, 255, 255, 0)');
-
-} else {
-$('#navbar').css('background','#ffefc2');
-}
-});
-
-$(window).scroll(function () {
-if ($(window).scrollTop() >= 101) {
-$('#about-navbar').css('background','rgba(255, 255, 255, 0)');
-} else {
-$('#about-navbar').css('background','white');
-}
-});
-
-$(window).scroll(function () {
-if ($(window).scrollTop() >= 101) {
-$('#pati-navbar').css('background','rgba(255, 255, 255, 0)');
-} else {
-$('#pati-navbar').css('background','#ee8761');
-}
-});
-
-$(window).scroll(function () {
-if ($(window).scrollTop() >= 101) {
-$('#vocapp-navbar').css('background','rgba(255, 255, 255, 0)');
-} else {
-$('#vocapp-navbar').css('background','#F4FAD2');
-}
-});
-
 
 // $(document).ready(function() {
 //   $(".reverse").click(function() {
